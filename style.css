@@ -33,18 +33,16 @@ body {
     padding-bottom: 4em;
 }
 
-.contacts {
-    float: inline-start;
-}
-
-.adress {
-    float: inline-end;
-}
-
 
 @media (min-width: 960px) {
     .pizzas {
         display: flex;
+    }
+    .contacts {
+        float: inline-start;
+    }
+    .adress {
+        float: inline-end;
     }
 }
 
